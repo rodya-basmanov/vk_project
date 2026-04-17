@@ -4,7 +4,7 @@ import torch
 # ============================================================
 # Пути
 # ============================================================
-PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODEL_DIR = os.path.join(PROJECT_DIR, "models", "finetuned")
 DATA_DIR = os.path.join(PROJECT_DIR, "data")
 
